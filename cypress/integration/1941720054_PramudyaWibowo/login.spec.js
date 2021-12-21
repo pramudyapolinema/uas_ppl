@@ -1,0 +1,10 @@
+describe('Login Test JIP', () => {
+    it('Visit login page and test with standard user', () => {
+        cy.visit('http://jip.polinema.ac.id/ojs3/index.php/jip/login')
+        cy.get('#username').type('pramudyapolinema').should('have.value', 'pramudyapolinema')
+        cy.get('#password').type('pram240101').should('have.value', 'pram240101')
+        cy.get('#login > fieldset > div.buttons > button').click()
+        cy.url().should('include', '/index')
+        cy.get('#navigationUser > li:nth-child(1) > a').contains('Logout')
+    });
+});
