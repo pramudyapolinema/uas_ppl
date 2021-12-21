@@ -14,3 +14,8 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           spec: cypress/integration/1941720054_PramudyaWibowo/*
+
+      - name: Risang Testing
+        uses: cypress-io/github-action@v2
+        with:
+          spec: cypress/integration/1941720166_RisangDaniswara/*
