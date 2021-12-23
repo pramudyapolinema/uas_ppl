@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "UAS PPL Kelompok 2 TI 3D",
   "main": "index.js",
-  "dependencies": {
-    "cypress": "^9.1.1"
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^9.2.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
