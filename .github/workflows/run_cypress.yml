@@ -10,6 +10,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Kelompok 2 Testing
+        uses: cypress-io/github-action@v2
+        with:
+          spec: cypress/integration/kelompok2/*
+
       - name: Pramudya Testing
         uses: cypress-io/github-action@v2
         with:
@@ -19,3 +24,8 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           spec: cypress/integration/1941720166_RisangDaniswara/*
+
+      - name: Erika Testing
+        uses: cypress-io/github-action@v2
+        with:
+          spec: cypress/integration/1941720015_ErikaAmalia/*
