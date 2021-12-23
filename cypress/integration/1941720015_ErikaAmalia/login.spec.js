@@ -8,7 +8,7 @@ describe('Login', () => {
     it('Visit Login page', () => {
         cy.visit('http://jip.polinema.ac.id/ojs3/index.php/jip/login')
         cy.get('[name="username"]').type('erika')
-        cy.get('[name="password"]').type('erika181')
+        cy.get('[name="password"]').type('')
         cy.get('#login > fieldset > div.buttons > button').click()
     })
 })
