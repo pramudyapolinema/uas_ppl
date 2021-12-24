@@ -24,8 +24,13 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           spec: cypress/integration/1941720166_RisangDaniswara/*
-
+          
+       - name: Zulfan Testing
+        uses: cypress-io/github-action@v2
+        with:
+          spec: cypress/integration/1941720142_MohZulfanAkbar/*
+          
       - name: Erika Testing
         uses: cypress-io/github-action@v2
         with:
-          spec: cypress/integration/1941720015_ErikaAmalia/*
+          spec: cypress/integration/1941720015_ErikaAmalia/
